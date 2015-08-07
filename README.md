@@ -9,9 +9,9 @@ Ruby version 2.0.2
 Rbenv version 0.4
 
 Resources used: 
-https://www.digitalocean.com/community/tutorials/how-to-install-and-get-started-with-sinatra-on-your-system-or-vps
-https://gorails.com/setup/osx/10.9-mavericks 
-http://readwrite.com/2013/10/02/github-for-beginners-part-2
+https://www.digitalocean.com/community/tutorials/how-to-install-and-get-started-with-sinatra-on-your-system-or-vps<br>
+https://gorails.com/setup/osx/10.9-mavericks <br>
+http://readwrite.com/2013/10/02/github-for-beginners-part-2<br>
 
 ## Getting Started
 
