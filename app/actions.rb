@@ -13,15 +13,16 @@ get '/messages/new' do
 end
 
 post '/messages' do
-
   @message = Message.new(
     title: params[:title],
     content: params[:content],
     author:  params[:author]
   )
-  binding.pry 
-  @message.save
-  redirect '/messages'
+  if @message.save
+  	redirect '/messages'
+  else
+  	erb :'messages/new'
+  end
 end
 
 get '/messages/:id' do
