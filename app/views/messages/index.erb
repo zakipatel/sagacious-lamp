@@ -5,13 +5,11 @@
 
 <% @messages.each do |message| %>
   <div class="message">
-    <h3>Author: <%= message.author %></h3>
-    
+    <h3>Author: <%= message.author %></h3> 
     <p>
       <%= message.content %>
     </p>
     
-    <h4> 
     <p>
     	<small>URL:  <a href="<%= message.url %>"><%= message.url %></a></small>
     </p>
