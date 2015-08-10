@@ -1,6 +1,7 @@
 class Message < ActiveRecord::Base
   validates :author, presence: true
   validates :content, presence: true
-   validates_format_of :url, :with => URI::regexp(%w(http https))
+
+  validates_format_of :url, :with => URI::regexp(%w(http https)), allow_blank: true
 end
 
